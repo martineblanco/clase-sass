@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  background-color: #00ace6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px; }
+  .header img {
+    border-radius: 50%;
+    margin-left: 20px; }
+  .header .nav .listasLink {
+    display: flex;
+    list-style: none; }
+    .header .nav .listasLink li {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0 10px;
+      cursor: pointer;
+      padding: 10px; }
+      .header .nav .listasLink li:hover {
+        background-color: #ffffff;
+        box-shadow: 3px 2px #808080; }
+
+.main {
+  background-color: #bb99ff;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .main .cardPadre {
+    display: flex;
+    margin: 20px 50px;
+    height: 50vh;
+    /*Muestra el 50% de mi navegador*/
+    justify-content: space-around; }
+    .main .cardPadre .cardHijo {
+      width: 250px;
+      border: solid 1px black;
+      background-color: #e9de48;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border-radius: 5%; }
+      .main .cardPadre .cardHijo p {
+        flex: 1;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+      .main .cardPadre .cardHijo button {
+        width: 150px;
+        margin: 0 auto; }
+  .main .presentacionPadre {
+    display: flex;
+    margin-top: 50px; }
+    .main .presentacionPadre img {
+      margin-left: 10px;
+      margin-right: 10px; }
+    .main .presentacionPadre .presentacionHijo p {
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.footer {
+  background-color: #00ace6; }
+  .footer .listasFooter {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px; }
+    .footer .listasFooter li {
+      margin: 10px 15px;
+      font-family: cursive; }

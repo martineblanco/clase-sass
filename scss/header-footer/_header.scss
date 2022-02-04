@@ -1,0 +1,32 @@
+//------------------HEADER-------------------
+
+.header{
+    background-color: $celeste;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    img{
+        border-radius: 50%;  
+        margin-left: 20px;
+    }
+    .nav{
+        .listasLink{
+            display: flex;
+            list-style: none;
+            li{
+                font-family: $tipografiaHeader;
+                margin: 0 10px;
+                cursor: pointer;
+                padding: 10px;
+                &:hover{
+                    background-color: $blanco;
+                    box-shadow: 3px 2px $gris;
+                }
+                
+              }
+            }
+        }
+        
+    }
+

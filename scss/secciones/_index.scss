@@ -1,0 +1,50 @@
+//--------------------MAIN-------------------
+
+.main{
+    background-color:$violeta;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .cardPadre{
+        display: flex;
+        margin: 20px 50px;
+        height: 50vh; /*Muestra el 50% de mi navegador*/
+        justify-content: space-around;
+        
+        .cardHijo{
+            width: 250px;
+            border: solid 1px $negro;
+            background-color:$amarillo;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-radius: 5%;
+                p{
+                    flex: 1;
+                    font-family: $tipografiaCards;
+                }
+                button{
+                    width: 150px;
+                    margin: 0 auto;
+                }
+
+        }
+
+    }
+
+    .presentacionPadre{
+        display: flex;
+        margin-top: 50px;
+
+        img{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+      .presentacionHijo{
+          p{
+             font-family: $textoMayor;
+          }
+      }  
+    }
+    
+}

@@ -1,0 +1,16 @@
+//---------------------FOOTER--------------
+
+.footer{
+    background-color: $celeste;
+    .listasFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 10px;
+
+        li{
+            margin: 10px 15px;
+            font-family: $tipografiaFooter;
+        }
+    }
+}
